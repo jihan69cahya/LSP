@@ -64,7 +64,7 @@
                     <label for="example-text-input" class="col-sm-3 col-form-label">Kategori</label>
                     <div class="col-sm-9">
                         <select class="select2 form-control mb-3 custom-select" id="kategori" name="kategori">
-                            <option value="">Semua kategori</option>
+                            <option value="">Pilih kategori</option>
                             <?php foreach ($select as $row): ?>
                                 <option value="<?php echo $row->id; ?>">
                                     <?php echo $row->nama; ?>
