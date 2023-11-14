@@ -99,8 +99,6 @@ class Kelola_arsip extends CI_Controller
 
                     if (!$this->upload->do_upload('file')) {
                         $response['errors']['file'] = strip_tags($this->upload->display_errors());
-                        echo json_encode($response);
-                        return;
                     } else {
                         $uploaded_data = $this->upload->data();
                         $data['file_name'] = $uploaded_data['file_name'];
