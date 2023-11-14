@@ -66,9 +66,11 @@ function submit(x) {
 	if (x == "tambah") {
 		$("#btn-insert").show();
 		$("#btn-update").hide();
+		$("[name='title']").text("Kategori Surat >> Tambah");
 	} else {
 		$("#btn-insert").hide();
 		$("#btn-update").show();
+		$("[name='title']").text("Kategori Surat >> Edit");
 
 		$.ajax({
 			type: "POST",
