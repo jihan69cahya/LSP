@@ -10,7 +10,7 @@
     <meta content="Mannatthemes" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?= base_url() ?>assets/images/icon.png">
 
     <link href="<?= base_url() ?>assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet"
         type="text/css" />
@@ -49,7 +49,9 @@
             <!-- LOGO -->
             <div class="topbar-left">
                 <div class="text-center">
-                    <a href="<?= base_url() ?>" class="logo"><i class="mdi mdi-assistant"></i> LSP</a>
+                    <a href="<?= base_url() ?>" class="logo"><img src="<?= base_url() ?>assets/images/icon.png"
+                            width="20%">
+                        LSP</a>
                 </div>
             </div>
 
