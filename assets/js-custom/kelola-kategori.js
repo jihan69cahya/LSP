@@ -42,7 +42,7 @@ function get_data() {
 							return (
 								'<button class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg" title="lihat" onclick="submit(' +
 								row.id +
-								')"><i class="ion-eye"></i></button> ' +
+								')"><i class="ion-edit"></i></button> ' +
 								'<button class="btn btn-warning waves-effect waves-light" data-toggle="modal" data-animation="bounce" data-target=".bs-example-modal-center" title="hapus" data-id="' +
 								row.id +
 								'"><i class="ion-trash-b"></i></button> '

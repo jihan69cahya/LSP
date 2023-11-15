@@ -181,7 +181,7 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-12">
-                        <embed src="" type="application/pdf" width="100%" height="400" />
+                        <embed src="" type="application/pdf" width="100%" height="600" />
                     </div>
                 </div>
             </div>
