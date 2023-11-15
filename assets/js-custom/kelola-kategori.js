@@ -11,6 +11,10 @@ function showAlertifySuccess(message) {
 	$("body").append(alertify.success(message));
 }
 
+function showAlertifyError(message) {
+	$("body").append(alertify.error(message));
+}
+
 function delete_form() {
 	$("[name='nama']").val("");
 	$("[name='keterangan']").val("");
@@ -161,6 +165,10 @@ function delete_data(x) {
 			if (response.success) {
 				$(".bs-example-modal-center").modal("hide");
 				showAlertifySuccess(response.success);
+				get_data();
+			} else if (response.error) {
+				$(".bs-example-modal-center").modal("hide");
+				showAlertifyError(response.error);
 				get_data();
 			}
 		},

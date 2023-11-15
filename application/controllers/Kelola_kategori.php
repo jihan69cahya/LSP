@@ -93,12 +93,20 @@ class Kelola_kategori extends CI_Controller
         $id = $this->input->post('id');
         $where = array('id' => $id);
 
-        $deleted = $this->data->delete('kategori', $where);
-        if ($deleted) {
-            $response['success'] = "Data berhasil dihapus";
+        $count_letter = $this->data->count_where('surat', 'id_kategori', $id);
+
+        if ($count_letter > 0) {
+            $response['error'] = "GAGAL, Data kategori terdapat pada surat";
         } else {
-            $response['error'] = "Gagal menghapus data";
+            $deleted = $this->data->delete('kategori', $where);
+            if ($deleted) {
+                $response['success'] = "Data berhasil dihapus";
+            } else {
+                $response['error'] = "Gagal menghapus data";
+            }
         }
+
+
         echo json_encode($response);
     }
 }
