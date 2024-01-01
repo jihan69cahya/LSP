@@ -189,7 +189,6 @@
                 <div class="col-lg-3">
                     <button type="button" id="btn-download" onclick="downloadFile($('#btn-download').data('file-name'))"
                         class="btn btn-outline-success btn-block">Unduh</button>
-
                 </div>
                 <div class="col-lg-3">
                     <button type="button" id="btn-update" onclick="update_data()"

@@ -38,7 +38,7 @@
     </div>
 </div>
 
-<!-- Modal untuk tambah kategori -->
+<!-- Modal untuk tambah/edit kategori -->
 <div class="modal fade bs-example-modal-lg" id="insert" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-lg">

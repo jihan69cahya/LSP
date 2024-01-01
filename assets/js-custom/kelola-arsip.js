@@ -61,6 +61,7 @@ function get_data() {
 				destroy: true,
 				scrollY: 320,
 				data: data,
+				responsive: true,
 				columns: [
 					{ data: "nomor" },
 					{ data: "nama" },
