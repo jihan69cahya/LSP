@@ -23,31 +23,29 @@
                     <div class="col-sm-12">
                         <div class="row">
                             <div class="col-sm-4">
-                                <img src="<?= base_url('assets/file/foto.jpeg') ?>" class="img-thumbnail">
+                                <div class="zoom-gallery">
+                                    <a class="pull-left" href="<?= base_url('assets/file/2131730043.jpg') ?>" title="Project 1"><img src="<?= base_url('assets/file/2131730043.jpg') ?>" class="img-thumbnail"></a>
+                                </div>
                             </div>
                             <div class="col-sm-8">
                                 <label for="email" class="col-sm-2 col-form-label">Nama</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        value="Jihan Cahya Firmana" readonly>
+                                    <input type="text" class="form-control" id="email" name="email" value="Jihan Cahya Firmana" readonly>
                                 </div>
 
                                 <label for="email" class="col-sm-2 col-form-label">Prodi</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        value="D3-Manajemen Informatika PSDKU Kediri" readonly>
+                                    <input type="text" class="form-control" id="email" name="email" value="D3-Manajemen Informatika PSDKU Kediri" readonly>
                                 </div>
 
                                 <label for="email" class="col-sm-2 col-form-label">NIM</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="email" name="email" value="2131730043"
-                                        readonly>
+                                    <input type="text" class="form-control" id="email" name="email" value="2131730043" readonly>
                                 </div>
 
                                 <label for="email" class="col-sm-2 col-form-label">Tanggal</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        value="11 November 2023" readonly>
+                                    <input type="text" class="form-control" id="email" name="email" value="11 November 2023" readonly>
                                 </div>
                             </div>
                         </div>
